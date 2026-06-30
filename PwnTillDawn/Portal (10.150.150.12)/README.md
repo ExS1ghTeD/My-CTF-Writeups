@@ -25,18 +25,18 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 ---
 
-## Screenshot - Nmap Scan
+## Screenshot - `Nmap` Scan
 
 <div align="center">
   <img src="assets/nmap_scan.png" alt="Nmap Output Scan" width="700">
-  <p><em>Nmap Output Scan</em></p>
+  <p><em>`Nmap` Output Scan</em></p>
 </div>
 
 ---
 
 # Exploitation
 
-The nmap output highlighted FTP running vsFTPd 2.3.4. Given that outdated FTP services are common attack vectors, I researched this specific version for known vulnerabilities.
+The `nmap` output highlighted FTP running vsFTPd 2.3.4. Given that outdated FTP services are common attack vectors, I researched this specific version for known vulnerabilities.
 
 ---
 
@@ -143,7 +143,7 @@ Typical post-exploitation steps included:
 * Performing basic system enumeration
 
 
-After stabilising the shell, I navigated to the root directory and located the flag using standard Linux enumeration commands (ls, cat).
+After stabilising the shell, I navigated to the root directory and located the flag using standard Linux enumeration commands (`ls`, `cat`).
 
 ---
 
