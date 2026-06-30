@@ -38,12 +38,14 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 The interesting part of this scan is the FTP, which is using "vsftpd 2.3.4". Check if this version has any vulnerabilities.
 
-# Screenshot - Google Search of The Version Vulnerabilities
+## Screenshot - Google Search of The Version Vulnerabilities
 
 <div align="center">
-  <img src="assets/research_version.png" alt="Google Search of The Version Vulnerabilities" width="700">
+  <img src="assets/research_version.png" alt="Google Search of The Version Vulnerabilities" width="500">
   <p><em>Nmap Output Scan</em></p>
 </div>
+
+
 
 After confirming the vulnerable version, the next step was triggering the backdoor service.
 
@@ -52,6 +54,15 @@ Connect to the FTP service:
 ```bash id="v2mw0f"
 nc 10.150.150.12 21
 ```
+---
+## Screenshot - Netcat To The Target
+
+<div align="center">
+  <img src="assets/net.png" alt="Netcat To The Target" width="400">
+  <p><em>Nmap Output Scan</em></p>
+</div>
+
+---
 
 Send a username ending with the ASCII smiley `:)`.
 
