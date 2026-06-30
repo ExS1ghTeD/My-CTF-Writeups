@@ -36,6 +36,15 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 # Exploitation
 
+The interesting part of this scan is the FTP, which is using "vsftpd 2.3.4". Check if this version has any vulnerabilities.
+
+# Screenshot - Google Search of The Version Vulnerabilities
+
+<div align="center">
+  <img src="assets/research_version.png" alt="Google Search of The Version Vulnerabilities" width="700">
+  <p><em>Nmap Output Scan</em></p>
+</div>
+
 After confirming the vulnerable version, the next step was triggering the backdoor service.
 
 Connect to the FTP service:
