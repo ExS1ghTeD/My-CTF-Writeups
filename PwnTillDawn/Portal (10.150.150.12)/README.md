@@ -58,7 +58,7 @@ nc 10.150.150.12 21
 ## Screenshot - Netcat To The Target
 
 <div align="center">
-  <img src="assets/net.png" alt="Netcat To The Target" width="400">
+  <img src="assets/netcat.png" alt="Netcat To The Target" width="400">
   <p><em>Nmap Output Scan</em></p>
 </div>
 
