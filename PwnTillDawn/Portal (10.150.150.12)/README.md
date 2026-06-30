@@ -27,16 +27,9 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 ## Screenshot — Nmap Scan
 
-
+<div align="center">
 ![Nmap Output Scan](assets/nmap_scan.png)
-
-
-
-Example filename suggestion:
-
-```text id="3nk7de"
-screenshots/nmap_scan.png
-```
+</div>
 
 ---
 
