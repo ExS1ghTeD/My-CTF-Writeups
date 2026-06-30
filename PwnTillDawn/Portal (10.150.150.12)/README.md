@@ -28,7 +28,8 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 ## Screenshot — Nmap Scan
 
 ```text id="vj2r4c"
-[ Insert Nmap scan screenshot here ]
+<img width="497" height="328" alt="nmap_scan" src="https://github.com/user-attachments/assets/b25f5339-fd57-4af1-ad92-be7e365099e9" />
+
 ```
 
 Example filename suggestion:
