@@ -36,7 +36,7 @@ This version is publicly known to be vulnerable to **CVE-2011-2523**, a maliciou
 
 # Exploitation
 
-The interesting part of this scan is the FTP, which is using "vsftpd 2.3.4". Check if this version has any vulnerabilities.
+The nmap output highlighted FTP running vsFTPd 2.3.4. Given that outdated FTP services are common attack vectors, I researched this specific version for known vulnerabilities.
 
 ---
 
@@ -49,7 +49,7 @@ The interesting part of this scan is the FTP, which is using "vsftpd 2.3.4". Che
 
 ---
 
-After confirming the vulnerable version, the next step was triggering the backdoor service.
+The vsFTPd master repository was compromised for the version of 2.3.4, and a malicious actor inserted this backdoor directly into the source code. When the daemon receives a username ending in :), the rogue code executes and binds a root shell to port 6200. After confirming the vulnerable version, the next step was triggering the backdoor service.
 
 Connect to the FTP service:
 
@@ -141,6 +141,9 @@ Typical post-exploitation steps included:
 * Checking user directories
 * Searching for flag files
 * Performing basic system enumeration
+
+
+After stabilising the shell, I navigated to the root directory and located the flag using standard Linux enumeration commands (ls, cat).
 
 ---
 
