@@ -17,7 +17,7 @@ This repository documents my journey through cybersecurity competitions, practic
 ## 📚 Repository Structure
 
 ```bash
-CTF-Writeups/
+My-CTF-Writeups/
 ├── README.md (Main landing page)
 ├── PwnTillDawn/
 │   ├── Portal (10.150.150.12)/
