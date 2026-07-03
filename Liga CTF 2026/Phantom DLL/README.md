@@ -1,14 +1,13 @@
 ---
-
 title: "Phantom DLL"
 ctf: "OWASP KL CTF"
 date: 2026-07-04
-category: "pwn / malware"
-difficulty: "hard"
-points: "1000 (first come first serve)"
-
+category: pwn / malware
+difficulty: medium
+points: 100
+flag_format: "OWASPKL{...}"
 author: "s1ght"
----------------
+---
 
 # Phantom DLL
 
