@@ -4,8 +4,8 @@ title: "Phantom DLL"
 ctf: "OWASP KL CTF"
 date: 2026-07-04
 category: "pwn / malware"
-difficulty: "medium"
-points: 100
+difficulty: "hard"
+points: 1000 (first come first serve)
 flag_format: "OWASPKL{...}"
 author: "s1ght"
 ---------------
@@ -25,11 +25,7 @@ Once loaded, the payload copied the secret flag file from:
 C:\flag.txt
 ```
 
-into:
 
-```text
-C:\output\stolen.txt
-```
 
 The sandbox service subsequently retrieved the contents of `stolen.txt` and returned them through the API response.
 
