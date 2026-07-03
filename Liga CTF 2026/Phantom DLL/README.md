@@ -6,7 +6,7 @@ date: 2026-07-04
 category: "pwn / malware"
 difficulty: "hard"
 points: "1000 (first come first serve)"
-flag_format: "OWASPKL{...}"
+
 author: "s1ght"
 ---------------
 
