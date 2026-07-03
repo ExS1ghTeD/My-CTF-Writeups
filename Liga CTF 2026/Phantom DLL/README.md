@@ -26,6 +26,12 @@ C:\flag.txt
 ```
 
 
+into:
+
+```text
+C:\output\stolen.txt
+```
+
 
 The sandbox service subsequently retrieved the contents of `stolen.txt` and returned them through the API response.
 
