@@ -4,8 +4,8 @@ title: "Phantom DLL"
 ctf: "OWASP KL CTF"
 date: 2026-07-04
 category: "pwn / malware"
-difficulty: "hard"
-points: 1000 (first come first serve)
+difficulty: "medium"
+points: 100
 flag_format: "OWASPKL{...}"
 author: "s1ght"
 ---------------
@@ -17,6 +17,7 @@ author: "s1ght"
 The objective of this challenge was to exploit insecure Windows DLL search path behavior through a classic **Phantom DLL Hijacking / Proxying** attack.
 
 The provided sandbox environment automatically detonated uploaded DLLs inside an isolated Windows VM. By crafting a malicious `version.dll` and abusing the Windows DLL search order, it was possible to force the target application to load attacker-controlled code before resolving the legitimate system library.
+
 
 Once loaded, the payload copied the secret flag file from:
 
