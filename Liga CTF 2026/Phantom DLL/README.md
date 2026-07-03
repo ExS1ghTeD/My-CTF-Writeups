@@ -1,10 +1,10 @@
 ---
 title: "Phantom DLL"
-ctf: "OWASP KL CTF"
+ctf: "Liga CTF 2026"
 date: 2026-07-04
-category: pwn / malware
-difficulty: medium
-points: 100
+category: "pwn / malware"
+difficulty: "hard"
+points: 1000 (first come first serve)
 flag_format: "OWASPKL{...}"
 author: "s1ght"
 ---
