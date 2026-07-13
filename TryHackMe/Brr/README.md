@@ -3,7 +3,7 @@ title: "Brr"
 ctf: "TryHackMe"
 date: 2026-07-12
 category: web
-difficulty: easy
+difficulty: easy (it's hard actually)
 flag_format: "THM{...}"
 author: "s1ght"
 ---
