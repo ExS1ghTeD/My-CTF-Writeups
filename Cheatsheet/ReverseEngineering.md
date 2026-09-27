@@ -181,6 +181,11 @@ Filter:
 ```bash
 nm -C ./chall | grep -Ei 'main|flag|win|check|verify|valid|decrypt'
 ```
+Open in terminal GDB:
+```bash
+gdb -q ./chall
+```
+
 
 In GDB:
 
